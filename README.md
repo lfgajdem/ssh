@@ -8,7 +8,7 @@ Restrict access to [SSH](https://www.openssh.com/) by changing parameters in the
 - **PermitRootLogin no** Disables direct root access.
 - **AllowUsers	User1 User2@HOST** User 1 can log in from any computer. User 2, however, can only log in from the HOST computer.
 - **PermitEmptyPasswords no** Deny login access to accounts with empty password fields.
-- **Banner /etc/banner_ssh** The contents of the file will be printed to the client before login.
+- **Banner /etc/[banner_ssh](https://github.com/lfgajdem/ssh/blob/main/banner_ssh)** The contents of the file will be printed to the client before login.
 
 <figure>
    <figcaption><sub>Fig.1 There were failed login attempts by the following unauthorized users: root, admin, and administrator. </sub></figcaption>
