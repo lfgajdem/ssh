@@ -1,8 +1,10 @@
 ## ssh Hardening
 ### Description
-Restrict access to SSH by changing parameters in the /etc/ssh/sshd_config file.
+Restrict access to [SSH](https://www.openssh.com/) by changing parameters in the /etc/ssh/sshd_config file.
 
-- *LoginGraceTime 40* a list of errors that have occurred since the command was called is stored in error.log.
+- **LoginGraceTime 40** Disables direct root access.
+- **PermitRootLogin no** Disables direct root access.
+- **Banner /etc/banner_ssh** the contents of the file will be printed to the client before login.
 
 <figure>
    <figcaption><sub>Fig.1 Here is an example of a user who does not exist.</sub></figcaption>
