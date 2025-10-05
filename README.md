@@ -3,7 +3,8 @@
 Restrict access to [SSH](https://www.openssh.com/) by changing parameters in the /etc/ssh/sshd_config file.
 
 - **LoginGraceTime 40** The time after which the server disconnects if the user has not successfully logged in.
-- **StrictModes yes** Specifies whether sshd(8) should check file modes and ownership of the user's files and home directory before       accepting login.  
+- **StrictModes yes** Specifies whether sshd should check file modes and ownership of the user's files and home directory before accepting login.
+- **MaxAuthTries 3** The  
 - **PermitRootLogin no** Disables direct root access.
 - **Banner /etc/banner_ssh** the contents of the file will be printed to the client before login.
 
