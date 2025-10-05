@@ -18,7 +18,7 @@ Restrict access to [SSH](https://www.openssh.com/) by changing parameters in the
 </figure>
 
 > [!IMPORTANT]
-> Do not use default usernames such as "root," "admin," or "administrator."
+> Do not grant access to usernames such as "root," "admin," or "administrator."
 
 <figure>
   <figcaption><sub>Fig.2 A successful connection to the server has been established.</sub></figcaption>
